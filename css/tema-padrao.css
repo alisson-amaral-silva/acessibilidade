@@ -33,6 +33,7 @@ li[aria-hidden='false'] { display:block ; }
   width: 1px;
   height: 1px;
   color: transparent;
+  display: block;
   position: absolute;
 }
 
