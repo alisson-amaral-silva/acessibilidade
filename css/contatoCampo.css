@@ -19,8 +19,11 @@
   line-height: 1;
   transition: .2s ease-in;
 }
+.contatoCampo-label:before {
+  border: 4px double #333;
+}
 
-.contatoCampo-checkbox:checked + .contatoCampo-label:before {
+.contatoCampo-checkbox:focus + .contatoCampo-checkbox:hover + .contatoCampo-label:before {
   content: 'x';
   color: #fff;
   background-image: radial-gradient(circle, #2DA4E7, #2F80ED);
